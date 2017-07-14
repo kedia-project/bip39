@@ -45,6 +45,16 @@ bitcoin.networks.particl = {
   wif: 0x6C,
 };
 
+bitcoin.networks.particltn = {
+  bip32: {
+    public: 0xe1427800,
+    private: 0x04889478
+  },
+  pubKeyHash: 0x76,
+  scriptHash: 0x7a,
+  wif: 0x2e,
+};
+
 bitcoin.networks.dash = {
   bip32: {
     public: 0x0488b21e,

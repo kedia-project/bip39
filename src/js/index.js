@@ -1175,6 +1175,13 @@
                 network = bitcoin.networks.particl;
                 DOM.bip44coin.val(44);
             },
+        },
+        {
+            name: "Particl Testnet",
+            onSelect: function() {
+                network = bitcoin.networks.particltn;
+                DOM.bip44coin.val(1);
+            },
         },        
     ]
 
